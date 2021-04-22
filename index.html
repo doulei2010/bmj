@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>长方体、正方体的表面积、体积（窦磊制作）</title>
+	</head>
+	<body>
+		请在弹框内使用！（窦磊制作）
+		若为正方体：填三个一样的数
+		点击计算结果的弹窗的确定即可再算一组
+		NaN：数字不合法
+		<script>
+			while(1){
+				var a = Number(prompt("长-不含单位：（窦磊制作）"));
+				var b = Number(prompt("宽-不含单位：（窦磊制作）"));
+				var h = Number(prompt("高-不含单位：（窦磊制作）"));
+				var tiji = a*b*h;
+				var biaomianji = 2*(a*h+b*h+a*b);
+				alert("计算成功！\n长方体的体积是"+tiji+"\n长方体的表面积是"+biaomianji);
+			}
+		</script>
+	</body>
+</html>
